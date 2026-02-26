@@ -1,0 +1,4 @@
+# workers/proxy/wrangler.toml
+name = "voteflow-proxy"
+main = "index.js"
+compatibility_date = "2026-02-26"
