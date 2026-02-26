@@ -1,4 +1,19 @@
+# Dependency folders
 node_modules
+**/node_modules/      <-- This catches the workers/proxy/node_modules too!
+
+# Next.js build output
 .next
+out
+
+# Infrastructure / Workers
+workers/              <-- This prevents your Worker code from going to Coolify
+.wrangler/
+
+# Environment and Git
+.env*
 .git
-.env
+.gitignore
+
+# OS files
+.DS_Store
